@@ -99,6 +99,9 @@
 .top-buffer {
     margin-top: 20px;
 }
+.bottom-buffer {
+    margin-bottom: 20px;
+}
 
 .gap {
     & > [class*=" col-"],
@@ -252,7 +255,7 @@ img {
         position: absolute;
         left: 50%;
         display: block;
-        width: 160px;
+        width: 130px;
         text-align: center;
         background: url('/images/logo-small.jpg') no-repeat center center;
         background-size: contain;
@@ -263,7 +266,7 @@ img {
 
     .navbar>.container .navbar-brand-centered,
     .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
+        margin-left: -65px;
         @media screen and (max-width: $screen-xs-max) {
             margin-left: -100px;
         }
